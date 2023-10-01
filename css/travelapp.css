@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@200;300&family=Inconsolata:wght@600&family=Inter:wght@200;400&family=Montserrat:wght@100;200&family=Mulish:wght@800;1000&family=Playfair+Display&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400&family=Ruwudu&display=swap");
+
+:root {
+  --brand-color: #3ca0ba;
+  --brand-font: "Poppins";
+  --color-black: #1b1b1d;
+  --color-contentbg: #f5f5f5;
+  --color-white: #ffffff;
+  --color-grey:#74899F;
+}
+
+body{
+    /* background-color: #f5f5f5; */
+    margin-bottom: 48px;
+}
+
+
+
+
+
+.custom-bg{
+    background-image: url(/images/course_list_bg.png);
+  }
+
+
+.h1{
+  font-family: var(--brand-font);
+  
+  font-weight: 600;
+}
+
+.h6{
+  font-family: var(--brand-font);
+  color: var(--color-grey);
+  font-weight: 300;
+}
+
+.sub-title{
+  font-family: var(--brand-font);
+  color: var(--color-grey);
+
+}
+
+
+
+  .custom-btn-one{
+    background-color:var(--brand-color);
+    font-family: var(--brand-font);
+    font-weight: 600;
+    color: var(--color-white);
+  }
+
+  .nav-item a{
+    color: #ffffffbf;
+     font-weight: 600;
+
+  }
+
+  .nav-link img:hover {
+    opacity: 0.8;
+    border: #3ca0ba;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+
+
+  .custom-footer {
+    height: 48px;
+  }
+  
+  .custom-footer {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+
+  .form-control:focus {
+   
+    
+    box-shadow: 0 0 0 0.25rem  #3ca1ba7c;;
+}
+
+.dropdown-menu li a{
+  color: var(--brand-color);
+}
+
+.card-body{
+  cursor: pointer;
+}
+
+.info .h6 {
+  font-family: var(--brand-font);
+  font-size: 18px;
+}
+
+.info .h4{
+  font-family: var(--brand-font);
+  font-size: 20px;
+
+}
+
+h2{
+  color: var(--brand-color);
+  font-family: var(--brand-font);
+  font-weight: 600;
+}
+
+.h5{
+  font-family: var(--brand-font);
+  color: var(--color-grey);
+
+}
+
+
+.custom-card {
+  transition: transform 0.2s; /* Add a smooth transition effect to the transform property */
+}
+
+.custom-card:hover {
+  transform: scale(1.05); /* Zoom in the card when hovering */
+}
+
+.h3{
+ font-family: var(--brand-font);
+ color: var(--color-grey);
+ font-weight: 600;
+}  
+
+
+.bg-custom {
+  background-color: var(--brand-color);
+}
+
+.custom-border{
+  border: 1px solid #3ca1baa4;
+}
+
+
+.custom-text{
+  color: var(--brand-color);
+}
+
+
+.form-check-input:checked {
+  background-color: var(--brand-color);
+  /* border-color: #0d6efd; */
+}
+
+.form-check-input:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #0dcaf05f;
+}
